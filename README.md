@@ -14,13 +14,15 @@ You will need PHP, Composer and Node.js. For MacOS I recommend installing them w
    npm install
    ```
 4. Open .env file and change the MAIL Provider SMTP Details.
-    You can use <a href="https://mailtrap.io/">MailTrap</a> to generate basic SMTP Details and test your email faeture.
+    You can use <a href="https://mailtrap.io/">MailTrap</a> to generate basic SMTP Details and test your email feature.
+    ```
     MAIL_MAILER=smtp
     MAIL_HOST=mailhog
     MAIL_PORT=1025
     MAIL_USERNAME=null
     MAIL_PASSWORD=null
     MAIL_ENCRYPTION=null
+    ```
 
 5. Create a database and configure the follow in `.env`. Enter the path to your database file
     ```
