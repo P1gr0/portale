@@ -39,7 +39,11 @@ You will need PHP, Composer and Node.js. For MacOS I recommend installing them w
     ```sh
     php artisan migrate
     ```
-8. Compile the webpages and run it
+8. Generate app key
+    ```sh
+    php artisan key:generate
+    ```
+9. Compile the webpages and run it
     ```sh
     npm run dev
     php artisan serve
